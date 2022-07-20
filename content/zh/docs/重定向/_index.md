@@ -7,7 +7,7 @@ description:
 
 ## stdin stdout 和 stderr
 
-stdin stdout 和 stderr 是 Linux 中的三个特殊的文件描述符。
+stdin stdout 和 stderr 是 Linux 中的三个特殊的文件描述符。Linux 会为每个运行的进程都分配这三个文件。
 
 | 文件描述符  | 英文  | 中文  |
 |---|---|---|
@@ -16,7 +16,10 @@ stdin stdout 和 stderr 是 Linux 中的三个特殊的文件描述符。
 | 2 | stderr  | 标准错误  |   
 
 
-stdout 和 stderr 缺省输出到 terminal window 上。
+stdin 从 keyboard 读取数据，stdout 和 stderr 缺省会显示到到 terminal window 上。
+
+![](stdout.png)
+
 
 ## 重定向
 
