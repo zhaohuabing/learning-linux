@@ -85,11 +85,9 @@ sudo iptables -t mangle -A PREROUTING -p tcp -j TPROXY --on-port 12345 --tproxy-
 
 
 
-
-
-
 ## 参考文档
 * https://github.com/FarFetchd/simple_tproxy_example/blob/master/tproxy_captive_portal.c
 * https://gsoc-blog.ecklm.com/iptables-redirect-vs.-dnat-vs.-tproxy
 * https://xtls.github.io/document/level-2/transparent_proxy/transparent_proxy.html
 * https://blog.gmem.cc/istio-tproxy
+* https://gist.github.com/FH0/9abdd7b73d2c20ee6f3572c1096872f7
